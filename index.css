@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+nav {
+    border-bottom: 5px solid darkblue;
+}
+#ul-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+#ul-container li {
+    border: 1px solid darkblue;
+    border-radius: 1em;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 10em;
+}
